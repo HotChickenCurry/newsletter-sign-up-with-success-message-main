@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png"> 
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="./src/output.css">
+  <script defer src="./src/form.js"></script>
+</head>
+<body class="md:bg-blue-700  min-h-screen md:flex flex-row items-center justify-center">
+
+    <!-- Sign-up form start -->
+
+    <section class="md:flex flex-row items-center bg-white rounded-3xl md:p-4">
+        <img class="block sm:hidden mx-auto" src="./assets/images/illustration-sign-up-mobile.svg" alt="illustration-sign-up-mobile">
+        <img class="hidden sm:block md:hidden mx-auto" src="./assets/images/illustration-sign-up-tablet.svg" alt="illustration-sign-up-tablet">
+          
+        <div class="md:w-[55%] md:px-10">
+            <article class="mt-8 mx-6 space-y-5">
+                <h1 class="text-3xl font-bold">Stay updated!</h1>
+                
+                <p>Join 60,000+ product managers receiving monthly updates on:</p>
+            
+                <ul>
+                    <li>
+                        <img src="./assets/images/icon-list.svg" alt="bullet" />
+                        <span class="ml-2">Product discovery and building what matters</span>
+                    </li>
+                    <li>
+                        <img src="./assets/images/icon-list.svg" alt="bullet" />
+                        <span class="ml-2">Measuring to ensure updates are a success</span>
+                    </li>
+                    <li>
+                        <img src="./assets/images/icon-list.svg" alt="bullet" />
+                        <span class="ml-2">And much more!</span>
+                    </li>
+                </ul>
+            </article>
+            <form novalidate method="get" action="index-sucess.html" class="mt-8 mx-6 flex flex-col space-y-2 items-stretch">
+                <div class="flex flex-row justify-between items-center">
+                    <label class="font-bold" for="email">Email address</label>
+                    <span aria-live="polite" id="email-error" class="text-red font-bold hidden">Valid email required</span>
+                </div>
+                <input aria-describedby="email-error" class="p-4 rounded-lg border border-gray placeholder-gray focus:outline-blue-800 transition-all" name="email" type="email" id="email" placeholder="email@company.com" required>
+                <button type="submit">Subscribe to monthly newsletter</button>
+            </form>
+        </div>
+
+        <img class="hidden md:block flex-1" src="./assets/images/illustration-sign-up-desktop.svg" alt="illustration-sign-up-desktop">
+    </section>
+
+  <!-- Sign-up form end -->
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
