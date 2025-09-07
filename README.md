@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/newsletter-form-with-tailwindcss-and-js-live-validation-u5DldQmFbi](https://www.frontendmentor.io/solutions/newsletter-form-with-tailwindcss-and-js-live-validation-u5DldQmFbi)
+- Live Site URL: [https://hotchickencurry.github.io/newsletter-sign-up-with-success-message-main/](https://hotchickencurry.github.io/newsletter-sign-up-with-success-message-main/)
 
 ## My process
 Started by setting up semantic HTML and Tailwind CSS, following a mobile-first approach with responsive modifiers for larger screens. Structured the layout using Flexbox for the list and form sections, and implemented custom list bullets and spacing. Added interactivity with JavaScript by validating the email form live, handling error states dynamically, and redirecting to a separate success page while passing the email securely.
@@ -68,7 +68,6 @@ Improve from validations using regex, add animations to sucess and error states,
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@HotChickenCurry](https://www.frontendmentor.io/profile/HotChickenCurry)
 
 ## Acknowledgments
